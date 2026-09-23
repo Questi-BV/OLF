@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OLFMessage version="1.4">
+  <Header>
+    <Sender>Uitgeverij X</Sender>
+    <SentDateTime>2026-09-23T16:51</SentDateTime>
+  </Header>
+  <Publishers>
+    <Publisher>
+      <PublisherIdentifier>0000000398731938</PublisherIdentifier>
+      <PublisherName>Uitgeverij X</PublisherName>
+      <PublisherEmail>support@uitgeverijx.be</PublisherEmail>
+      <Methods>
+        <Method>
+          <MethodIdentifier>UX-FR-5</MethodIdentifier>
+          <MethodName><![CDATA[Frans & Co 5]]></MethodName>
+          <TargetAudiences>
+            <TargetAudience>LO-J5</TargetAudience>
+          </TargetAudiences>
+          <LearningObjectives>
+            <LearningObjective>
+              <LearningObjectiveIdentifier>UX-FR-5-001</LearningObjectiveIdentifier>
+              <LearningObjectiveDescription><![CDATA[De leerlingen tonen bereidheid om te luisteren in het Frans.]]></LearningObjectiveDescription>
+              <LearningObjectiveCategories>
+                <LearningObjectiveCategory type="CHAPTER">Hoofdstuk 1</LearningObjectiveCategory>
+                <LearningObjectiveCategory type="LESSONNUMBER">3</LearningObjectiveCategory>
+              </LearningObjectiveCategories>
+              <LearningObjectiveCodes>
+                <!-- GO! legacy BaO: prefix -->
+                <LearningObjectiveCode type="GO">5.25*</LearningObjectiveCode>
+                <!-- GO! navigator BaO -->
+                <LearningObjectiveCode type="GO-NAV-BAO" codetype="short">NL.001</LearningObjectiveCode>
+                <!-- De id van de GO! navigator heeft een eigen formaat, geen standaard uuid -->
+                <LearningObjectiveCode type="GO-NAV-BAO" codetype="uuid">1071_3e9bbf13-78db-4980-84a2-4a3cddf73331_navigator-bao</LearningObjectiveCode>
+                <!-- Zill: uuid + versie van het leerplan -->
+                <LearningObjectiveCode type="VVKBAO" codetype="uuid" version="0bb40237-487c-4c9c-9608-1e30debadb9f">0b71fcdc-53f5-476e-8528-3e7f0a839a86</LearningObjectiveCode>
+                <!-- OVSG legacy BaO: prefix -->
+                <LearningObjectiveCode type="OVSG">DL-FR-LUI-03.01</LearningObjectiveCode>
+                <!-- Op.Stap: korte code of uuid -->
+                <LearningObjectiveCode type="OPSTAP" codetype="short">1.1.PF1.4</LearningObjectiveCode>
+                <LearningObjectiveCode type="OPSTAP" codetype="uuid">1408e88d-4356-494d-a930-9d83e5799329</LearningObjectiveCode>
+                <!-- LeerLokaal BaO -->
+                <LearningObjectiveCode type="LEERLOKAAL-BAO" codetype="uuid">42d38231-f900-4494-981e-da050bfd7fea</LearningObjectiveCode>
+                <!-- POV -->
+                <LearningObjectiveCode type="POV" codetype="uuid">00da8561-98ac-4d2a-94b1-c6ff554bc053</LearningObjectiveCode>
+              </LearningObjectiveCodes>
+              <LearningObjectiveUri>https://www.uitgeverijx.be/lesdoelen/UX-FR-5-001</LearningObjectiveUri>
+              <Qualifications>
+                <!-- Minimumdoel enkel via code -->
+                <Qualification codetype="code">WT 1.11</Qualification>
+              </Qualifications>
+            </LearningObjective>
+          </LearningObjectives>
+        </Method>
+        <Method>
+          <MethodIdentifier>UX-EHBO-SO</MethodIdentifier>
+          <MethodName><![CDATA[Eerste hulp]]></MethodName>
+          <TargetAudiences>
+            <TargetAudience>SO-G1</TargetAudience>
+          </TargetAudiences>
+          <LearningObjectives>
+            <LearningObjective>
+              <LearningObjectiveIdentifier>UX-EHBO-001</LearningObjectiveIdentifier>
+              <LearningObjectiveDescription><![CDATA[Technieken voor eerste hulp toepassen in een gesimuleerde leeromgeving.]]></LearningObjectiveDescription>
+              <LearningObjectiveCodes>
+                <LearningObjectiveCode type="GO-NAV-SO" codetype="short">BV1_01.01</LearningObjectiveCode>
+                <LearningObjectiveCode type="GO-NAV-SO" codetype="uuid">1071_3e9bbf13-78db-4980-84a2-4a3cddf73331_navigator-so</LearningObjectiveCode>
+                <!-- LeerLokaal SO: korte code met leerplanversie (versiewaarde illustratief) -->
+                <LearningObjectiveCode type="LEERLOKAAL-SO" codetype="short" version="2">DIG 1 B.25</LearningObjectiveCode>
+                <LearningObjectiveCode type="LLINKID" codetype="uuid">72e4456f-27e2-42ca-bce0-63abec7c3737</LearningObjectiveCode>
+                <LearningObjectiveCode type="ROOMSKATH-SO" codetype="uuid">76cd6d85-1a86-4789-a64b-46df9c1b3d4c</LearningObjectiveCode>
+                <LearningObjectiveCode type="ROOMSKATH-SO">PLU1</LearningObjectiveCode>
+              </LearningObjectiveCodes>
+              <Qualifications>
+                <!-- Minimumdoel enkel via uuid -->
+                <Qualification codetype="uuid">8775bbc9-5264-4d20-aa4e-90f83ad1c050</Qualification>
+              </Qualifications>
+            </LearningObjective>
+          </LearningObjectives>
+        </Method>
+      </Methods>
+    </Publisher>
+  </Publishers>
+</OLFMessage>
